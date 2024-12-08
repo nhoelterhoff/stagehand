@@ -240,6 +240,13 @@ async function getBrowser(
           "--disable-web-security",
         ],
         bypassCSP: true,
+        recordVideo: {
+          dir: path.join(process.cwd(), "videos"),
+          size: {
+            width: 1250,
+            height: 800,
+          },
+        },
       },
     );
 
