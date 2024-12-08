@@ -8,7 +8,7 @@ screenshot.png
 .cache/
 .env
 downloads/
-dist/
+# dist/ Todo: should be done in release script
 evals/**/public
 lib/dom/build/
 evals/public
